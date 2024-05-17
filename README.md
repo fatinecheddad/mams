@@ -70,53 +70,55 @@
 
 <!-- Interactive Boxes -->
 <div class="container">
-    <div class="row">
-        <!-- First Row of Boxes -->
-        <div class="col-md-6">
-            <button class="btn btn-primary btn-custom" type="button" data-toggle="collapse" data-target="#boxOne" aria-expanded="false" aria-controls="boxOne">
-                Box One
-            </button>
-            <div class="collapse" id="boxOne">
-                <div class="card card-body">
-                    Content for Box One. You can replace this text as needed.
-                </div>
-            </div>
+  <!-- First Row of Boxes -->
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card border-primary mb-3">
+        <div class="card-header">Box One</div>
+        <div class="card-body">
+          <h5 class="card-title">Title for Box One</h5>
+          <p class="card-text">Content for Box One. You can replace this text as needed.</p>
+          <a href="#" class="btn btn-primary" onclick="$('li:eq(1) a').tab('show');">Get started now &raquo;</a>
         </div>
-        <div class="col-md-6">
-            <button class="btn btn-primary btn-custom" type="button" data-toggle="collapse" data-target="#boxTwo" aria-expanded="false" aria-controls="boxTwo">
-                Box Two
-            </button>
-            <div class="collapse" id="boxTwo">
-                <div class="card card-body">
-                    Content for Box Two. You can replace this text as needed.
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+    <div class="col-md-6">
+      <div class="card border-success mb-3">
+        <div class="card-header">Box Two</div>
+        <div class="card-body">
+          <h5 class="card-title">Title for Box Two</h5>
+          <p class="card-text">Content for Box Two. You can replace this text as needed.</p>
+          <a href="#" class="btn btn-success" onclick="$('li:eq(2) a').tab('show');">Get started now &raquo;</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <div class="row">
-        <!-- Second Row of Boxes -->
-<div class="col-md-6">
-<button class="btn btn-primary btn-custom" type="button" data-toggle="collapse" data-target="#boxThree" aria-expanded="false" aria-controls="boxThree">
-Box Three
-</button>
-<div class="collapse" id="boxThree">
-<div class="card card-body">
-Content for Box Three. You can replace this text as needed.
+  <!-- Second Row of Boxes -->
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card border-warning mb-3">
+        <div class="card-header">Box Three</div>
+        <div class="card-body">
+          <h5 class="card-title">Title for Box Three</h5>
+          <p class="card-text">Content for Box Three. You can replace this text as needed.</p>
+          <a href="#" class="btn btn-warning" onclick="$('li:eq(3) a').tab('show');">Get started now &raquo;</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card border-danger mb-3">
+        <div class="card-header">Box Four</div>
+        <div class="card-body">
+          <h5 class="card-title">Title for Box Four</h5>
+          <p class="card-text">Content for Box Four. You can replace this text as needed.</p>
+          <a href="#" class="btn btn-danger" onclick="$('li:eq(4) a').tab('show');">Get started now &raquo;</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-</div>
-<div class="col-md-6">
-<button class="btn btn-primary btn-custom" type="button" data-toggle="collapse" data-target="#boxFour" aria-expanded="false" aria-controls="boxFour">
-Box Four
-</button>
-<div class="collapse" id="boxFour">
-<div class="card card-body">
-Content for Box Four. You can replace this text as needed.
-</div>
-</div>
-</div>
-</div>
+
 
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
