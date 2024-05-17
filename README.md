@@ -67,3 +67,59 @@
     </div>
   </div>
 </div>
+
+<!-- Interactive Boxes -->
+<div class="container">
+    <div class="row">
+        <!-- First Row of Boxes -->
+        <div class="col-md-6">
+            <button class="btn btn-primary btn-custom" type="button" data-toggle="collapse" data-target="#boxOne" aria-expanded="false" aria-controls="boxOne">
+                Box One
+            </button>
+            <div class="collapse" id="boxOne">
+                <div class="card card-body">
+                    Content for Box One. You can replace this text as needed.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <button class="btn btn-primary btn-custom" type="button" data-toggle="collapse" data-target="#boxTwo" aria-expanded="false" aria-controls="boxTwo">
+                Box Two
+            </button>
+            <div class="collapse" id="boxTwo">
+                <div class="card card-body">
+                    Content for Box Two. You can replace this text as needed.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Second Row of Boxes -->
+<div class="col-md-6">
+<button class="btn btn-primary btn-custom" type="button" data-toggle="collapse" data-target="#boxThree" aria-expanded="false" aria-controls="boxThree">
+Box Three
+</button>
+<div class="collapse" id="boxThree">
+<div class="card card-body">
+Content for Box Three. You can replace this text as needed.
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<button class="btn btn-primary btn-custom" type="button" data-toggle="collapse" data-target="#boxFour" aria-expanded="false" aria-controls="boxFour">
+Box Four
+</button>
+<div class="collapse" id="boxFour">
+<div class="card card-body">
+Content for Box Four. You can replace this text as needed.
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
